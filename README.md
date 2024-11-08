@@ -12,13 +12,17 @@ The `.envrc` and `shell.nix` files were created by running `lorri init`.
 ```shell
 # uname -a
 Darwin pld-mbp-22 23.4.0 Darwin Kernel Version 23.4.0: Fri Mar 15 00:10:42 PDT 2024; root:xnu-10063.101.17~1/RELEASE_ARM64_T6000 arm64 arm Darwin
+
 # lorri --version
 lorri 1.7.1
+
 # ls -al $(which lorri)
 lrwxr-xr-x 1 root wheel 65 Dec 31  1969 /run/current-system/sw/bin/lorri -> /nix/store/s0adm0g33af23fm8dr0vqnvvh2gmznrf-lorri-1.7.1/bin/lorri
+
 # nix --version
 nix (Nix) 2.24.10
-# lorri info
+
+# lorri info --shell-file shell.nix
 Project Shell File: /Users/pd/Desktop/lorri-init-path-errors/shell.nix
 Project Garbage Collector Root: /Users/pd/Library/Caches/com.github.nix-community.lorri.lorri.lorri/gc_roots/bad6431c93487fe2821f8b802ac8a0d8/gc_root/shell_gc_root
 
