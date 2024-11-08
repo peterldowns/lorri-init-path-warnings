@@ -18,6 +18,14 @@ lorri 1.7.1
 lrwxr-xr-x 1 root wheel 65 Dec 31  1969 /run/current-system/sw/bin/lorri -> /nix/store/s0adm0g33af23fm8dr0vqnvvh2gmznrf-lorri-1.7.1/bin/lorri
 # nix --version
 nix (Nix) 2.24.10
+# lorri info
+Project Shell File: /Users/pd/Desktop/lorri-init-path-errors/shell.nix
+Project Garbage Collector Root: /Users/pd/Library/Caches/com.github.nix-community.lorri.lorri.lorri/gc_roots/bad6431c93487fe2821f8b802ac8a0d8/gc_root/shell_gc_root
+
+General:
+Lorri User GC Root Dir: /Users/pd/Library/Caches/com.github.nix-community.lorri.lorri.lorri/gc_roots
+Lorri Daemon Socket: /Users/pd/Library/Caches/com.github.nix-community.lorri.lorri.lorri/daemon.socket
+Lorri Daemon Status: `lorri daemon` is running
 ```
 
 After running `direnv allow .`, you can reproduce the issue by running:
